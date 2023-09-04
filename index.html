@@ -1,0 +1,84 @@
+<!-- Formularios -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Hola mundo</h1>
+
+    <form action="" method="post">
+
+        <label for="nombre">Nombre :</label>
+
+        <input type="text" name="name" id="nombre">
+
+        <label for="colorFav">Color Favorito :</label>
+
+        <input type="color" name="colorFav" id="colorFav">
+
+        <input type="date" name="FechaNav" id="FechaNav">
+
+        <label for="Clave">Clave : </label>
+
+        <input type="password" name="Clave" id="Clave">
+
+        <input type="range" min="1" max="9" name="rango" id="rango">
+
+        <div>
+
+            <textarea name="Comentarios" id="Comentarios" cols="30" rows="10"></textarea>
+
+        </div>
+
+        <dir>
+
+            <label for="Curriculum">Curriculum</label>
+
+            <input type="file" name="Curriculum" id="Curriculum">
+
+        </dir>
+
+        <div>
+
+            <label for="Curso">Curso</label>
+
+            <select name="Curso" id="Curso" multiple>
+
+                <optgroup label="Linea">
+
+                    <option value="1">Python</option>
+
+                </optgroup>
+
+                <optgroup label="Presencial">
+
+                    <option value="2">HTML</option>
+                    <option value="3">Css</option>
+
+                </optgroup>
+
+            </select>
+
+        </div>
+
+        <label for="Guardar">Guardar</label>
+
+        <button>Enviar</button>
+
+        <input type="button" value="Guardar">
+
+        <input type="submit" value="Enviar">
+
+        <input type="reset" value="Borrar">
+
+        <a href="#">Enviar</a>
+
+    </form>
+
+</body>
+</html>
